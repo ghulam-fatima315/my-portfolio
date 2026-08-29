@@ -1294,58 +1294,5 @@ box-shadow:0 0 25px #38bdf8;
 grid-template-columns:1fr;
 
 }
-.whatsapp {
-    font-size: 35px;
-    color: #25D366;
-    text-decoration: none;
-}
-
-.whatsapp:hover {
-    transform: scale(1.1);
-}
-.typing-content {
-    overflow: hidden;
-}
-
-.typing-content h1,
-.typing-content h2,
-.typing-content h3,
-.typing-content p {
-    overflow: hidden;
-    white-space: nowrap;
-    width: 0;
-    animation: typing 15s steps(100) infinite;
-}
-
-.typing-content h1 {
-    animation-delay: 0s;
-}
-
-.typing-content h2 {
-    animation-delay: 0s;
-}
-
-.typing-content h3 {
-    animation-delay: 0s;
-}
-
-.typing-content p {
-    white-space: normal;
-    animation-delay: 0s;
-}
-
-@keyframes typing {
-    0% {
-        width: 0;
-    }
-
-    70% {
-        width: 100%;
-    }
-
-    100% {
-        width: 0;
-    }
-}
 
 }
